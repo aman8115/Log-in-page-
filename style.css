@@ -1,0 +1,55 @@
+*{
+    margin: 0px ;
+    padding: 0px ;
+}
+.login {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px ;
+    margin-top: 50px ;
+    box-shadow:  0  0 10px   ;
+    height: 300px ;
+    width: 300px ;
+    padding: 50px ;
+    margin-left: 300px ;
+    background-color: #00ffff;
+    border-radius: 10%;
+    
+   
+   
+    
+}
+#user{
+    width: 250px ;
+    height: 40px ;
+    text-align: center;
+    font-size: 15px ;
+    border-radius: 12%;
+  border-style: none;
+  background-color: beige;
+
+}
+#password{
+    width: 250px ;
+    height: 40px ;
+    text-align: center;
+    font-size: 15px ;
+    border-radius: 12%;
+  border-style: none;
+  background-color: beige;
+
+
+}
+#Page{
+    width: 200px;
+    height: 40px ;
+    background-color: chartreuse;
+    font-size: large;
+  
+ 
+
+}
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body >
+    <form action="index.html" method="get"class="login"  >
+
+        <input type="userName" name="userName" id="user" placeholder="Enter your Name " autofocus required >
+        <input type="password" name="userPassword" id="password" placeholder="Enter Your password " >
+        <input type="submit" value="LogIn" onclick="loginpage()" id="Page">
+    </form >
+    <script>
+        function loginpage(){
+             const Aman = document.getElementById("user").value;
+           const password =  document.getElementById("password").value;
+            if(Aman  == "admin" && password == "user")
+            
+            
+            {
+               
+                
+            alert("Password validation successful")
+                return false
+               
+            } else
+            
+            {
+               
+                alert("Password validation Unsuccessful")
+                return true
+
+            }
+        }
+       
+    </script>
+    
+</body>
+</html>
